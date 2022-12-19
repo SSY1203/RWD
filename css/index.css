@@ -116,11 +116,11 @@ input[type="search"] {
 }
 
 .sprite {
-  min-height: 3.75rem;
-  padding-left: 4rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  min-height: 3.75rem;
+  padding-left: 4rem;
   background-image: url(./../images/sprite_main.png);
   background-repeat: no-repeat;
 }
