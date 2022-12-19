@@ -296,7 +296,7 @@ input[type="search"] {
   }
 
   .news {
-    grid-area: 1/1/2/12;
+    grid-area: 1/1/2/13;
   }
 
   .book {
@@ -304,11 +304,11 @@ input[type="search"] {
   }
 
   .board {
-    grid-area: 3/6/4/12;
+    grid-area: 3/6/4/13;
   }
 
   .favorite {
-    grid-area: 2/10/3/12;
+    grid-area: 2/10/3/13;
   }
 
   .twitter {
