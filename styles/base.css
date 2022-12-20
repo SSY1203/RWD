@@ -38,20 +38,13 @@ video {
 }
 
 /* 반응형 Iframe */
-.iframeWrapper {
-  /* width: 100%; */
-  /* auto로 주면 안됨, 그럼 총 높이가 padding만큼만 크기를 가지는 것이 아닌 padding+auto가 되니깐 56.25%만큼 가지지 못한다 */
-  /* height: 0 !important; */
-  position: relative;
-}
-
 /* iframe 비율  */
-.iframeRatio-16-9 {
-  aspect-ratio: 16/9;
-}
-
 .iframeRatio-21-9 {
   aspect-ratio: 21/9;
+}
+
+.iframeRatio-16-9 {
+  aspect-ratio: 16/9;
 }
 
 .iframeRatio-4-3 {
@@ -63,6 +56,7 @@ video {
 }
 
 .iframeWrapper iframe {
+  display: block;
   width: 100%;
   height: 100%;
 }
