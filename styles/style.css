@@ -220,6 +220,7 @@ input[type="search"] {
   grid-area: board;
   display: flex;
   flex-flow: row wrap;
+  overflow: hidden;
 }
 
 .board__title {
@@ -228,6 +229,7 @@ input[type="search"] {
 
 .board__list {
   order: 1;
+  width: 100%;
   flex: 1 1 auto;
   display: flex;
   flex-flow: column nowrap;
@@ -243,7 +245,7 @@ input[type="search"] {
   flex: 0 1 auto;
   /* 줄바꿈 금지 */
   overflow: hidden;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   text-overflow: ellipsis;
   width: calc(100% - 6.25em);
   background-color: pink;
