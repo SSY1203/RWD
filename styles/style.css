@@ -257,6 +257,10 @@ input[type="search"] {
   grid-area: favorite;
 }
 
+.favorite__item {
+  margin-bottom: var(--spacing-sm);
+}
+
 /* 공통 트위터 */
 .twitter {
   grid-area: twitter;
