@@ -163,9 +163,23 @@ input[type="search"] {
 
 /* 공통 추천 서적 */
 .book {
-  /* background: lightgreen; */
+  background: lightgreen;
   grid-area: book;
 }
+
+.book__cover {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+  text-align: center;
+}
+
+.book__coverCaption {
+  margin-top: var(--spacing-sm);
+  line-height: 1.6rem;
+}
+
 /* 공통 새소식 */
 .news {
   /* background: yellow; */
