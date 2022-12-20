@@ -4,6 +4,12 @@
 @import url(./theme.css);
 @import url(./base.css);
 
+/* 공통 아이콘 (Font Awesome) */
+.far,
+.fas {
+  margin-right: var(--spacing-xs);
+}
+
 /* 모든 디바이스 (All Device) */
 /* 공통 헤더 */
 .appHeader {
@@ -203,16 +209,25 @@ input[type="search"] {
   /* background: yellow; */
   grid-area: news;
 }
+
+.news__date {
+  display: block;
+  text-align: right;
+  margin-top: var(--spacing-base);
+}
+
 /* 공통  게시판 */
 .board {
   /* background: lightsalmon; */
   grid-area: board;
 }
+
 /* 공통 인기사이트 */
 .favorite {
   /* background: skyblue; */
   grid-area: favorite;
 }
+
 /* 공통 트위터*/
 .twitter {
   /* background: burlywood; */
