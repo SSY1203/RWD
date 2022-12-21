@@ -37,8 +37,7 @@ video {
   height: auto;
 }
 
-/* 반응형 Iframe */
-/* iframe 비율  */
+/* 반응형  iframe 비율  */
 .iframeRatio-21-9 {
   aspect-ratio: 21/9;
 }
