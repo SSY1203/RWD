@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Picture 요소</title>
+    <link rel="stylesheet" href="./styles/picture.css" />
   </head>
   <body>
-    <figure>
+    <figure class="svg1">
+      <!-- <title>Netflix</title> -->
       <svg
+        aria-label="Netflix"
         width="210"
         height="57"
         viewBox="0 0 210 57"
@@ -21,8 +24,15 @@
         />
       </svg>
     </figure>
+    <figure class="svg2">
+      <img src="./assets/Netflix.svg" alt="NETFLIX" />
+    </figure>
+
     <figure>
-      <img src="./assets/Netflix.svg" alt="넷플릭스 로고" />
+      <picture>
+        <source srcset="" type="image/" />
+        <img class="" src="" alt="" />
+      </picture>
     </figure>
   </body>
 </html>
