@@ -304,14 +304,6 @@ input[type="search"] {
   gap: var(--spacing-base);
 }
 
-/* 공통 주소 */
-.address {
-}
-
-/* 공통 저작권 */
-.copyright {
-}
-
 /* 모바일 디바이스 (Mobile Device) */
 @media (min-width: 320px) and (max-width: 768px) {
   /* 모바일 헤더 */
@@ -444,8 +436,14 @@ input[type="search"] {
   }
 
   /* 모바일 푸터 */
-  .address span {
-    display: block;
+  .appFooter {
+    font-size: var(--text-sm);
+  }
+
+  /* 모바일 주소 */
+  .address {
+    display: flex;
+    flex-flow: column nowrap;
   }
 }
 
@@ -530,7 +528,7 @@ input[type="search"] {
 
   /* 데스크탑 푸터 */
   .appFooter {
-    text-align: center;
+    align-items: center;
   }
 }
 
